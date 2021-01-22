@@ -7,3 +7,25 @@
     background-color: cadetblue;
     min-height: 700px;
 }
+
+.subForm {
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    border-radius: 15px;
+}
+
+.formContainer {
+    background-image: url("https://www.palestinalibre.org/fotos/6055220160331115960553.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.personalColor {
+    background-color: rgb(45, 51, 77) !important;
+    color: white;
+}
+
+.navbar-toggler-icon {
+    color: rgb(0, 237, 179) !important;
+}

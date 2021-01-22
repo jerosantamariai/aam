@@ -5,8 +5,8 @@ const Footer = props => {
     return (
         <>
             <footer className="bg-dark text-white">
-                <div className="container">
-                    <div className="row text-center d-flex justify-content-center pt-4 my-2">
+                <div className="footerContainer">
+                    <div className="row text-center d-flex justify-content-center pt-4">
                         <div className="col-md-2 my-2">
                             <h6 className="text-uppercase font-weight-bold noDecoration">
                                 <Link className="stdbtn" to="#!">Conoceme!</Link>
