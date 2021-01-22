@@ -2,7 +2,7 @@ import React from 'react';
 
 const Form = props => {
     return (
-        <div className="formContainer py-5">
+        <section id="form" className="formContainer py-5">
             <div className="subForm col-md-8 offset-md-2 px-auto py-5">
                 <div className="row">
                     <div className="col">
@@ -33,7 +33,7 @@ const Form = props => {
                     </div>
                 </form>
             </div>
-        </div>
+        </section>
     );
 }
 
