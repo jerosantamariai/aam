@@ -7,10 +7,10 @@ import Form from '../components/landingpage/form';
 const Home = () => {
     return (
         <>
-            <Carousel />
+            {/* <Carousel /> */}
             <AlgoUno />
             <AlgoDos />
-            <Form />
+            <Form id="form" />
         </>
     );
 }

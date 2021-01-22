@@ -1,10 +1,24 @@
+/* .navbar {
+    overflow: hidden !important;
+    position: fixed !important;
+    top: 0 !important;
+    width: 100% !important;
+} */
+
+body { 
+    padding-top: 90px; 
+}
+
 .container1 {
-    background-color: aquamarine;
+    background-color: rgb(45, 51, 77);
+    color: rgb(0, 237, 179);
+    max-width: 100%;
     min-height: 500px;
 }
 
 .container2 {
     background-color: cadetblue;
+    max-width: 100%;
     min-height: 700px;
 }
 
@@ -24,8 +38,32 @@
 .personalColor {
     background-color: rgb(45, 51, 77) !important;
     color: white;
+    overflow: hidden !important;
+    position: fixed !important;
+    top: 0 !important;
+    width: 100% !important;
 }
 
 .navbar-toggler-icon {
     color: rgb(0, 237, 179) !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: rgb(0, 237, 179) !important;
+}
+
+.photo {
+    width: 50%;
+    /* height: 50%; */
+}
+
+.macLogo {
+    padding: 60px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 40%;
 }
