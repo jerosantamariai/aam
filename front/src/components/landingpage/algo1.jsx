@@ -3,7 +3,7 @@ import MacLogo from '../../img/macLogo.png'
 
 const AlgoUno = props => {
     return (
-        <section className="container1 d-flex">
+        <section className="container1 color-verde d-flex">
             <div className="photo">
                 <img src={MacLogo} className="macLogo" />
             </div>
