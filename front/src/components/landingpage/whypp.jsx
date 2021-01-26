@@ -1,6 +1,6 @@
 import React from 'react';
 
-const AlgoTres = props => {
+const WhyPP = props => {
     return (
         <div className="container3 d-flex">
             <h1>¿Por qué elegir ProtegePyme?</h1>
@@ -18,4 +18,4 @@ const AlgoTres = props => {
     );
 }
 
-export default AlgoTres;
+export default WhyPP;

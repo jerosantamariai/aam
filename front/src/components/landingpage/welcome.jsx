@@ -1,7 +1,7 @@
 import React from 'react';
 import MacLogo from '../../img/macLogo.png'
 
-const AlgoUno = props => {
+const Welcome = props => {
     return (
         <section className="container1 color-verde d-flex">
             <div className="photo">
@@ -16,4 +16,4 @@ const AlgoUno = props => {
     );
 }
 
-export default AlgoUno;
+export default Welcome;
