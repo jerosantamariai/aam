@@ -1,6 +1,6 @@
 import React from 'react';
 
-const AlgoCuatro = props => {
+const Price = props => {
     return(
         <div className="container4">
             <div className="top d-flex">
@@ -19,4 +19,4 @@ const AlgoCuatro = props => {
     );
 }
 
-export default AlgoCuatro;
+export default Price;

@@ -2,7 +2,7 @@ import React from 'react';
 import CobOnl from '../../img/logoCO.png';
 import LogoPP from "../../img/logoProtegePyme.png";
 
-const AlgoDos = props => {
+const OurJob = props => {
     return (
         <div className="container2">
             <div className="top">
@@ -31,4 +31,4 @@ const AlgoDos = props => {
     );
 }
 
-export default AlgoDos;
+export default OurJob;
