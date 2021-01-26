@@ -8,10 +8,11 @@ import notFound from './views/notfound';
 
 
 function App() {
+
   return (
-    <div className="App">
+    <div className="App" >
       <BrowserRouter>
-      <Navbar />
+        <Navbar />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route component={notFound} />
