@@ -87,8 +87,12 @@ nav {
 
 .LogoPP {
     padding: 60px;
-    max-width: 27%;
+    max-width: 55%;
     height: auto;
+}
+
+.co, .pp {
+    width: 50%;
 }
 
 /* ### FORMULARIO ### */
