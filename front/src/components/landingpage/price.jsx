@@ -10,6 +10,7 @@ const Price = props => {
                 <li>No incluye costas gastos del juicio.</li>
                 <li>Juicios ordinarios.</li>
                 <li>Desde 12 UF.</li>
+                cambiando algo
             </ul>
             </div>
             <div className="bottom content-center">
