@@ -1,8 +1,8 @@
 import React from 'react';
-import AlgoUno from '../components/landingpage/algo1';
-import AlgoDos from '../components/landingpage/algo2';
-import AlgoTres from '../components/landingpage/algo3';
-import AlgoCuatro from '../components/landingpage/algo4';
+import Welcome from '../components/landingpage/welcome';
+import OurJob from '../components/landingpage/ourjob';
+import WhyPP from '../components/landingpage/whypp';
+import Price from '../components/landingpage/price';
 // import Carousel from '../components/landingpage/carousel';
 import Form from '../components/landingpage/form';
 
@@ -12,10 +12,10 @@ const Home = () => {
         <div>
 
             {/* <Carousel /> */}
-            <AlgoUno />
-            <AlgoDos />
-            <AlgoTres />
-            <AlgoCuatro />
+            <Welcome />
+            <OurJob />
+            <WhyPP />
+            <Price />
             <Form id="form" />
         </div>
         </>
