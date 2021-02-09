@@ -4,7 +4,7 @@ import LogoPP from "../../img/logoProtegePyme.png";
 
 const OurJob = props => {
     return (
-        <div className="container2">
+        <section className="container2">
             <div className="top">
                 <h1>¿Como trabajamos?</h1>
             </div>
@@ -20,14 +20,13 @@ const OurJob = props => {
             </div>
             <div className="bottom justify-content-center">
                 <ul className="justify-content-center">
-                    <li>Presentamos las demandas de cobro dentro de 48 hrs.
-                Desde que se envían todo los antecedentes solicitados.</li>
+                    <li>Presentamos las demandas de cobro dentro de 48 hrs. Desde que se envían todo los antecedentes solicitados.</li>
                     <li>Te informamos periódicamente del estado del juicio</li>
                     <li>Protegemos a las Pymes</li>
                     <li>Cobramos precios justos, según el monto y fecha de la deuda. Cotiza en el mercado!</li>
                 </ul>
             </div>
-        </div>
+        </section>
     );
 }
 
