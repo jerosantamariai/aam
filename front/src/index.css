@@ -8,19 +8,35 @@
 body { 
     padding-top: 90px; 
 }
+
 .color-verde{
     color: rgb(0, 237, 179);
 }
+
 .container1 {
     background-color: rgb(45, 51, 77);
     max-width: 100%;
-    min-height: 500px;
+    padding: 16px;
 }
 
 .container2 {
     background-color: rgb(0, 237, 179);
+    color: rgb(45, 51, 77);
     max-width: 100%;
-    min-height: 700px;
+    padding: 16px;
+}
+
+.container3 {
+    background-color: rgb(247, 247, 247);
+    margin-top: -16px;
+    padding: 16px;
+}
+
+.container4 {
+    background-color: rgb(45, 51, 77);
+    color: rgb(0, 237, 179);
+    max-width: 100%;
+    padding: 16px;
 }
 
 .subForm {
