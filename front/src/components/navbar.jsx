@@ -37,6 +37,9 @@ const Navbar = () => {
                         </ul>
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item">
+                                <Link className="nav-link" to="#"><i class="fab fa-whatsapp fa-2x mr-2"></i></Link>
+                            </li>
+                            <li className="nav-item">
                                 <Link className="nav-link btn btn-success rounded-pill" to="#">Login</Link>
                             </li>
                         </ul>
