@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import LogoProtegePyme from '../img/logoProtegePyme.png';
-import Form from './landingpage/form';
+// import Form from './landingpage/form';
 
 const Navbar = () => {
     return (
@@ -16,14 +16,23 @@ const Navbar = () => {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav mx-auto">
+                        <li className="nav-item">
+                                <Link className="nav-link" to="#ourjob">¿Cómo Trabajamos?</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="#whypp">¿Porqué Nosotros?</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="#price">Precios</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="#form">Contacto</Link>
+                            </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="#">Conoceme!</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="#">Blog</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link className="nav-link" to="form">Contacto</Link>
                             </li>
                         </ul>
                         <ul className="navbar-nav ml-auto">
