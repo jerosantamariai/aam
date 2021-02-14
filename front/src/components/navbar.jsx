@@ -17,16 +17,16 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav mx-auto">
                         <li className="nav-item">
-                                <Link className="nav-link" to="#ourjob">¿Cómo Trabajamos?</Link>
+                                <a className="nav-link" href="#ourjob">¿Cómo Trabajamos?</a>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="#whypp">¿Porqué Nosotros?</Link>
+                                <Link className="nav-link" to="/whypp">¿Porqué Nosotros?</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="#price">Precios</Link>
+                                <Link className="nav-link" to="/price">Precios</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="#form">Contacto</Link>
+                                <Link className="nav-link" to="/form">Contacto</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="#">Conoceme!</Link>
@@ -37,7 +37,7 @@ const Navbar = () => {
                         </ul>
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item">
-                                <Link className="nav-link" to="#"><i class="fab fa-whatsapp fa-2x mr-2"></i></Link>
+                                <Link className="nav-link" to="#"><i className="fab fa-whatsapp fa-2x mr-2"></i></Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link btn btn-success rounded-pill" to="#">Login</Link>

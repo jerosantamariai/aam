@@ -4,7 +4,8 @@ import LogoPP from "../../img/logoProtegePyme.png";
 
 const OurJob = props => {
     return (
-        <section className="container2">
+        <section className="container2" name="ourjob" id="ourjob" >
+            <a name="prueba"></a>
             <div className="top pt-5">
                 <h1>¿Como trabajamos?</h1>
             </div>
